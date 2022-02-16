@@ -1,0 +1,29 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            so far so good ツ
+tagline:
+description:      "The presentation page"
+url:              https://xdeath.github.io
+baseurl:          /
+
+future:           false
+
+author:
+  name:           'Andrei Blokhin'
+  url:
+
+paginate:         5
+paginate_path:    "/blog/page:num/"
+
+# Custom vars
+version:
+
+github:           https://github.com/xdeath
+linkedin:         https://linkedin.com/in/mynameisandreiblokhin
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
