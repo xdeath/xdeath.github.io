@@ -239,7 +239,7 @@ figure img {
 
 figcaption {
   font-size: 0.7rem;
-  text-align: center;
+  text-align: left;
   opacity: .8;
 }
 
@@ -400,7 +400,7 @@ tbody tr:nth-child(odd) th {
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
-  text-align: center;
+  text-align: left;
 }
 
 /* Pagination items can be `span`s or `a`s */
