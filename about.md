@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hey hey! My name is Andrei Blokhin and I'm a [junior software developer](https://github.com/xdeath).
+Hey hey! My name is Andrei Blokhin.
 
 ## What I do
 

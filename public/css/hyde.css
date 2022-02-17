@@ -51,7 +51,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #592F93;
 }
-@media (min-width: 35em) {
+@media (min-width: 40em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -72,6 +72,19 @@ html {
   font-family: "Permanent Marker";
   font-style: normal;
   font-size: 2.4rem;
+}
+
+
+h1.sidebar-about:hover,
+h1.sidebar-about:focus{
+  text-shadow: 
+  0 0 4px #fff,
+  0 0 8px #fff,
+  0 0 16px #fff,
+  0 0 32px #0ac,
+  0 0 64px #0ac,
+  0 0 128px #0ac,
+  0 0 256px #0ac,
 }
 
 .sidebar-nav {
@@ -101,7 +114,7 @@ a.sidebar-nav-item:focus {
   margin: 0 0.25em;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 40em) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
@@ -115,7 +128,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 40em) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
