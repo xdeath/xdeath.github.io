@@ -34,7 +34,7 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48em) {
+@media (min-width: 40em) {
   html {
     font-size: 16px;
   }
@@ -51,7 +51,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #592F93;
 }
-@media (min-width: 48em) {
+@media (min-width: 40em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -70,8 +70,8 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Permanent Marker";
-  font-style: normal;
-  font-size: 2.7rem;
+  font-style:normal;
+  font-size: 2.4rem;
 }
 
 .sidebar-nav {
@@ -83,7 +83,14 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-shadow: 
+  0 0 4px #fff,
+  0 0 8px #fff,
+  0 0 16px #fff,
+  0 0 32px #0ac,
+  0 0 64px #0ac,
+  0 0 128px #0ac,
+  0 0 256px #0ac,
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -94,7 +101,7 @@ a.sidebar-nav-item:focus {
   margin: 0 0.25em;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 40em) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
@@ -108,7 +115,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 40em) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
