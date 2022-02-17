@@ -12,7 +12,7 @@ Basically, I've worked as a junior software developer. I think I know something 
 
 ## My plans
 
-I am planning to get my masters degree in an European university and get a job there. I also want to continue working on D&D project that I've started to work on with one of my friends.
+I am planning to get my masters degree in an European university and get a job there. I also want to continue working on D&D project that I've started to work on.
 
 ## Some other plans
 
